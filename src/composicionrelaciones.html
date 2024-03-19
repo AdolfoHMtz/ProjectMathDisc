@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Composición de Relaciones</title>
+  <link rel="stylesheet" href="/src/subconjunto-styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Composición de Relaciones</h1>
+    <p class="instructions">Ingrese las relaciones en forma de conjuntos de pares ordenados.</p>
+    <div class="input-container">
+      <label for="relacionR">Relación R (en formato [a, b]):</label>
+      <input type="text" id="relacionR" placeholder="Ej. [1, 2], [2, 3], [3, 4]">
+    </div>
+    <div class="input-container">
+      <label for="relacionS">Relación S (en formato [b, c]):</label>
+      <input type="text" id="relacionS" placeholder="Ej. [2, 3], [3, 4], [4, 5]">
+    </div>
+    <button onclick="componerRelaciones()">Componer Relaciones</button>
+    <div id="resultado" class="resultado-container"></div>
+    <div id="explicacion" class="explicacion-container"></div>
+  </div>
+  <footer class="footer">
+    <p>&copy; Adolfo Huerta Martinez</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

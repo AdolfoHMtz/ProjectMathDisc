@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intersección de Conjuntos</title>
+  <link rel="stylesheet" href="/src/subconjunto-styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Intersección de Conjuntos</h1>
+    <p class="instructions">Ingrese los elementos de A y B separados por comas.</p>
+    <div class="input-container">
+      <label for="conjuntoM">A:</label>
+      <input type="text" id="conjuntoM" placeholder="Ej. 1, 2, 3">
+    </div>
+    <div class="input-container">
+      <label for="conjuntoN">B:</label>
+      <input type="text" id="conjuntoN" placeholder="Ej. 3, 4, 5">
+    </div>
+    <button onclick="calcularInterseccion()">Calcular Intersección</button>
+    <div id="resultado" class="resultado-container"></div>
+  </div>
+  <footer class="footer">
+    <p>&copy; Adolfo Huerta Martinez</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
